@@ -57,7 +57,7 @@ const News = (props) => {
 
     return (
       <div className='container my-3'>
-      <h1 className="text-center" style={{margin: '35px 0px'}}>NewsMonkey Top Headlines from {capitalixeFirstLetter(props.category)} category</h1>
+      <h1 className="text-center" style={{margin: '35px 0px', marginTop: '50px'}}>NewsMonkey Top Headlines from {capitalixeFirstLetter(props.category)} category</h1>
       <InfiniteScroll
           dataLength={articals.length}
           next={fetchMoreData}
